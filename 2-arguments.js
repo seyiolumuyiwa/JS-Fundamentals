@@ -1,8 +1,9 @@
-let one = "No argument";
-console.log(one);
+let arg = process.argv.slice[2];
 
-let two ='Best Argument found';
-console.log(two);
-
-let three = 'Best School Arguments found';
-console.log(three);
+if (arg.length === 0) {
+  console.log ('No argument');
+} else if (arg.length === 1) {
+  console.log('Argument found');
+} else {
+  console.log ('Arguments found');
+}

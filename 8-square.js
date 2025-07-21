@@ -1,5 +1,5 @@
 const [firstArg] = process.argv.slice(2);
-let square= 'x';
+let square= 'X';
  if (isNaN(firstArg)) {
       console.log ('Missing size')
     } else {
